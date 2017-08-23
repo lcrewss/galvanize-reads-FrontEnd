@@ -1,0 +1,10 @@
+
+nav .nav-wrapper {
+  background-color: #424242;
+}
+.icon {
+  margin: 2px;
+  height: 9vh;
+  width: 10vh;
+  border: 1px solid white;
+}
