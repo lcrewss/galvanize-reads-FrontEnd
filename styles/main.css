@@ -8,3 +8,7 @@ nav .nav-wrapper {
   width: 10vh;
   border: 1px solid white;
 }
+
+.addButton {
+  margin-top: 10px;
+}

@@ -16,15 +16,62 @@
             <img class= "icon" src="http://www.hearthandblade.com/wp-content/uploads/2015/12/Iskari.png" alt="">
             <a href="#" class="brand-logo center">Galvanize-Reads</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!-- <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li> -->
+              <li><a href="author.html">Authors</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section id="bookCover" class="col m6 s12 card center-align">
+      <a class="waves-effect waves-light btn modal-trigger addButton" href="#modal1"><i class="material-icons right">add</i>Add Book</a>
+      <div id="modal1" class="modal">
+         <div class="modal-content">
+           <div class="row">
+             <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="book_title" type="text" class="validate">
+                  <label for="book_title">Book Title</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                  <label for="disabled">Disabled</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  This is an inline input field:
+                  <div class="input-field inline">
+                    <input id="email" type="email" class="validate">
+                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+         </div>
+         <div class="modal-footer">
+           <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+         </div>
+       </div>
+      <section id="bookCover" class="col m3 s12 card center-align row">
         <h2>Books</h2>
       </section>
     </main>
