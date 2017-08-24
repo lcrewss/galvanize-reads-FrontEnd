@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
   $('#modal1').modal();
-
-const baseURL = "http://localhost:8080/books"
+const baseURL = "postgres://xlmshnsteptxcr:163bd40f4cd9563bb0889e328ee411d933e7f92d5d4e8edf0f9e7f4ebcb1781d@ec2-107-22-167-179.compute-1.amazonaws.com:5432/ddv7fg66p0q0k5"
+// const baseURL = "http://localhost:8080/books"
 
 $.get(`${baseURL}`)
   .then(function (data) {
